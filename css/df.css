@@ -1,0 +1,10 @@
+:root{
+    /* COLORs */
+    --main-color: #61FF53;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}

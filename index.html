@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroSync</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+      <!-- <h1>AgroSync</h1> -->
+      <img src="./res/app-ico/logo-2.png" alt="AgroSync">
+    </header>
+    
+    <div class="content-page">
+      <!-- Your website content goes here -->
+      <p>Opa, eae!</p>
+    </div>
+
+    <footer>
+    <!-- BUTTONs -->
+      <label for="btn-footer-business">
+          <input type="radio" name="btn-footer" id="btn-footer-business" data-page="business" checked>
+        <img src="./res/business.svg" alt="Business">
+        <p>Business</p>
+      </label>
+      <label for="btn-footer-analytics">
+        <input type="radio" name="btn-footer" id="btn-footer-analytics" data-page="analytics">
+        <img src="./res/analytics.svg" alt="Analysis">
+        <p>Analysis</p>
+      </label>
+      <label for="btn-footer-news">
+        <input type="radio" name="btn-footer" id="btn-footer-news" data-page="news">
+        <img src="./res/news.svg" alt="News">
+        <p>News</p>
+      </label>
+      <label for="btn-footer-menu">
+        <input type="radio" name="btn-footer" id="btn-footer-menu" data-page="menu">
+        <img src="./res/menu.svg" alt="Menu">
+        <p>Menu</p>
+      </label>
+    </footer>
+    
+    </body>
+    <script>
+        const $ = e => document.querySelector(e);
+        const $$ = e => document.querySelectorAll(e);
+    </script>
+    <script src="./app.js"></script>
+    <script src="./page.js"></script>
+    <script src="./index.js"></script>
+    <div id="page-js">
+        <!-- JavaScript to Page Load -->
+    </div>
+</html>
