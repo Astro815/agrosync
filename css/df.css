@@ -1,3 +1,6 @@
+@import url(./font.css);
+@import url(./style_ui.css);
+
 :root{
     /* COLORs */
     --main-color: #61FF53;
